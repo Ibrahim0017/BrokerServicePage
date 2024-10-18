@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./services.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="headerWrapper">
+  
+          <div class="navHolder">
+
+            <a href="./brokers.html">
+              <div class="nav"><i class="fas fa-handshake"></i> Brokers</div>
+            </a>
+            <a href="./services.html">
+              <div class="nav" id="activeService" >
+                <i class="fas fa-headset"></i>Services
+              </div></a
+            >
+          </div>
+          <div class="searchHolder">
+            <div class="searchIcon">
+              <i class="fas fa-search search-icon"></i>
+            </div>
+            <input placeholder="Search by Name" />
+          </div>
+        </div>
+      </div>
+      <div class="bodyWrapper">
+        <div class="cardHolder" onclick="toggleDetails()" >
+          <div class="company">
+            <div class="companyLogoDiv">
+              <div class="companyLogo">
+                <img src="./assets/favicon.ico" alt="" />
+              </div>
+              <div class="rating">Rating</div>
+            </div>
+            <div class="companyName"  >
+              <div class="name">FxCash</div>
+              <div class="paymentMethodsDiv">
+                <h3 class="paymentMethods">Payment Methods</h3>
+                <div class="paymentList">
+                  USDT / Perfecty Money / Visa / Master
+                </div>
+              </div>
+            </div>
+            <button class="visit">Visit Site</button>
+          </div>
+
+          <div class="hiddenContent" id="extraContent">
+            <div class="aboutBigText">About FxCash</div>
+            <p class="aboutSmallText">
+              FxCash is offering a comprehensive Forex rebate service,
+              partnering with top-tier trading brokers to provide cashback to
+              traders. The platform allows users to get back a portion of the
+              spread or commission paid on their trades.
+            </p>
+            <div class="headLine">Available broker list (32)</div>
+            <div class="availableBrokerWrapper">
+              <div class="innerDiv">
+                <div class="availableBroker">
+                  <div class="brokerimage">
+                    <img src="./assets/9720027.jpg" />
+                  </div>
+                  <h5 class="brokerText">IC Market</h5>
+                </div>
+                <div class="availableBroker">
+                  <div class="brokerimage">
+                    <img src="./assets/9720027.jpg" />
+                  </div>
+                  <h5 class="brokerText">IC Market</h5>
+                </div>
+                <div class="availableBroker">
+                  <div class="brokerimage">
+                    <img src="./assets/9720027.jpg" />
+                  </div>
+                  <h5 class="brokerText">IC Market</h5>
+                </div>
+                <div class="availableBroker">
+                  <div class="brokerimage">
+                    <img src="./assets/9720027.jpg" />
+                  </div>
+                  <h5 class="brokerText">IC Market</h5>
+                </div>
+                <div class="availableBroker">
+                  <div class="brokerimage">
+                    <img src="./assets/9720027.jpg" />
+                  </div>
+                  <h5 class="brokerText">IC Market</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

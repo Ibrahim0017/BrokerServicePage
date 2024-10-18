@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Brokers</title>
+    <link rel="stylesheet" href="./broker.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="bannerDiv">
+        <div class="leftDiv">
+          <img src="./assets/1d1597124256719.Y3JvcCwxMDgwLDg0NCwwLDIwMw.jpg" alt="">
+        </div>
+        <div class="rightDiv">
+          <img src="./assets/59960.jpg" alt="">
+        </div>
+      </div>
+      <div class="header">
+        <div class="headerWrapper">
+          <div class="navHolder">
+            <a href="./brokers.html">
+              <div class="nav" id="activeBroker">
+                <i class="fas fa-handshake"></i> Brokers
+              </div>
+            </a>
+            <a href="./services.html">
+              <div class="nav"><i class="fas fa-headset"></i> Services</div></a
+            >
+          </div>
+          <div class="searchHolder">
+            <div class="searchIcon">
+              <i class="fas fa-search search-icon"></i>
+            </div>
+            <input placeholder="Search by Name" />
+          </div>
+        </div>
+      </div>
+      <div class="bodyWrapper">
+        <div class="cardHolder" onclick="toggleDetails()">
+          <div class="company">
+            <div class="companyLogoDiv">
+              <div class="companyLogo">
+                <img src="./assets/favicon.ico" alt="" />
+              </div>
+              <div class="companyName">Ava Trade</div>
+            </div>
+
+            <h3 class="visit">Total 12 Rebate Services</h3>
+          </div>
+
+          <div class="hiddenContent" id="extraContent">
+            <div class="servicesCard">
+              <div class="serviceCardWrapper">
+                <div class="serviceLogoDiv">
+                  <div class="serviceLogo">
+                    <img src="./assets/favicon.ico" alt="" />
+                  </div>
+                  <div class="rating">Rating</div>
+                </div>
+                <div class="ratepaymentdiv">
+                  <div class="paymentMethodsDiv">
+                    <h3 class="paymentMethods">Rebate Rates</h3>
+                    <div class="paymentList">
+                      Standard : 30% / Zero : Up to $4.6 / ECN : $3.2 to $5
+                    </div>
+                  </div>
+                  <div class="paymentMethodsDiv">
+                    <h3 class="paymentMethods">Payment Methods</h3>
+                    <div class="paymentList">
+                      USDT / Perfecty Money / Visa / Master
+                    </div>
+                  </div>
+                  <div class="paymentMethodsDiv">
+                    <h3 class="paymentMethods">Pay Period</h3>
+                    <div class="paymentList">Daily / Monthly</div>
+                  </div>
+                </div>
+                <div class="cashBackDiv">
+                  <button class="cashback">Get Cashback</button>
+
+                  <div class="serviceDetail">Service's Detail</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./brokers.js"></script>
+  </body>
+</html>

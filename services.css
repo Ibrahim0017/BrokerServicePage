@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #041d79f0;
+  display: flex;
+  justify-content: center;
+}
+
+.headerWrapper {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px rgba(152, 152, 152, 0.03);
+  padding: 10px 0px;
+}
+
+.navHolder {
+  display: flex;
+  gap: 30px;
+}
+
+.navHolder a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(12px, 2vw, 17px);
+  cursor: pointer;
+  gap: 5px;
+}
+
+#activeService{
+  color: #f8e807;
+}
+
+/* .empty {
+  display: flex;
+  flex: 1;
+} */
+.searchHolder {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  /* height: 40px; */
+}
+
+.searchIcon {
+  width: 20px;
+  height: 100%;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  rgb(120, 119, 119);
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.searchHolder img {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  border:none;
+  padding: 10px 5px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: clamp(12px, 2vw, 17px);
+  outline: none;
+  /* height: 70%; */
+}
+
+.bodyWrapper {
+  width: 95%;
+  margin-top: 25px;
+}
+.cardHolder {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(152, 152, 152, 0.244);
+  color: whitesmoke;
+  background: rgb(18,42,128);
+  background: linear-gradient(326deg, rgba(18,42,128,1) 0%, rgba(80,100,172,1) 48%, rgba(18,42,128,1) 100%);
+  cursor: pointer;
+}
+
+.hiddenContent{
+  display: none;
+  margin-top: 15px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyLogoDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.companyLogo{
+  width: 50px;
+  height: 50px;
+}
+
+.companyLogo img{
+  width: 100%;
+  height: 100%;
+}
+
+.visit{
+  height: 35px;
+  padding: 0px 14px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(75, 75, 227);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px,2vw,14px);
+}
+
+/* .visit:hover {
+  transition: 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.visit:active{
+  background-color:  rgba(153, 153, 249, 0.591);
+} */
+
+.companyName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.name{
+  font-size: clamp(15px,2vw,25px);
+}
+
+.paymentMethodsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paymentMethods{
+  font-size: clamp(13px,2vw,20px);
+}
+
+.paymentList{
+  font-size: clamp(11px,2vw,20px);
+  text-align: center;
+}
+
+.aboutBigText{
+  font-size: clamp(14px,2vw,19px);
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+.aboutSmallText{
+  font-weight: 300;
+  font-size: clamp(11px,2vw,15px);
+}
+
+.headLine{
+  width: 100%;
+  font-size: clamp(14px,2vw,19px);
+  font-weight: 550;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.availableBrokerWrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.innerDiv{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.availableBroker{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.brokerimage{
+ width: 70px;
+ height: 70px;
+}
+
+.brokerimage img{
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.brokerText{
+  font-size: clamp(10px ,2vw, 13px);
+  font-weight: 400;
+}
+
+@media(max-width: 700px) {
+  .innerDiv{
+    width: 90%;
+  }
+
+  .brokerimage{
+    width: 50px;
+    height: 50px;
+  }
+}
