@@ -10,14 +10,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(247, 247, 247, 0.196);
   }
   
   .wrapper {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: white;
+    box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   }
 
   .bannerDiv{
@@ -26,27 +31,34 @@
   }
   
   .leftDiv{
-    width: 100%;
-    height: 90px;
-    background-color: rgb(84, 248, 248);
+    width: 40%;
+    height: 100px;
   }
 
   .leftDiv img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .rightDiv{
     width: 100%;
-    height: 90px;
-    background-color: rgb(208, 80, 80);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .rightDiv img{
+  .banner{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(225, 241, 246);
+  }
+
+  .banner img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .header {
@@ -130,16 +142,15 @@
   }
   
   .cardHolder {
-    background-color: #1d2884f4;
     display: flex;
     flex-direction: column;
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 4px 4px 4px rgba(152, 152, 152, 0.244);
-    color: rgb(29, 29, 29);
-    background: rgb(18,42,128);
-    background: linear-gradient(326deg, rgba(18,42,128,1) 0%, rgba(80,100,172,1) 48%, rgba(18,42,128,1) 100%);
+    background: white;
 cursor: pointer;
+box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
+-webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   }
   
   .company {
@@ -167,13 +178,11 @@ cursor: pointer;
   .companyName{
     font-weight: 600;
     font-size: clamp(15px,2vw,20px);
-    color: whitesmoke;
   }
 
   .visit{ 
     border: none;
     border-radius: 4px;
-    color: white;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -209,13 +218,14 @@ cursor: pointer;
 
   .servicesCard{
     width: 100%;
-    background-color: #ddecfd;
     /* border: 1px solid rgb(166, 166, 164); */
     display: flex;
     justify-content: center;
     border-radius: 12px;
-    background: rgb(194,198,244);
-    background: linear-gradient(0deg, rgba(194,198,244,1) 0%, rgba(238,239,255,1) 50%, rgba(202,205,254,1) 100%);
+    background-color: whitesmoke;
+    box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
+-webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
+-moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
   }
 
   .serviceCardWrapper{
@@ -292,5 +302,14 @@ cursor: pointer;
     margin-top: 10px;
   }
 
+
+@media(max-width: 768px){
+  .rightDiv{
+    display: none;
+  }
+  .leftDiv{
+    width: 100%;
+  }
+}
 
  
