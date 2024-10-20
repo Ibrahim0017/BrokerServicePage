@@ -310,6 +310,9 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   .leftDiv{
     width: 100%;
   }
+  .wrapper{
+    width: 90%;
+  }
 }
 
  
