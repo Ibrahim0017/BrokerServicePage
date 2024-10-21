@@ -147,15 +147,16 @@
   .nameRankDiv{
     display: flex;
     gap: 7px;
-    font-size: clamp(13px,2vw,17px);
+    font-size: clamp(15px,2vw,17px);
     font-weight: 550;
   }
 
   .rank{
     display: flex;
+    gap: 6px;
   }
   .letters{
-    font-size: clamp(13px,2vw,17px);
+    font-size: clamp(15px,2vw,17px);
     font-weight: 400;
     cursor: pointer;
   }
