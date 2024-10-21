@@ -144,6 +144,21 @@
     gap: 20px;
   }
   
+  .nameRankDiv{
+    display: flex;
+    gap: 7px;
+    font-size: clamp(13px,2vw,17px);
+    font-weight: 550;
+  }
+
+  .rank{
+    display: flex;
+  }
+  .letters{
+    font-size: clamp(13px,2vw,17px);
+    font-weight: 400;
+  }
+
   .cardHolder {
     display: flex;
     flex-direction: column;
