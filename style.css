@@ -91,6 +91,9 @@
     color: #f8e807;
   }
 
+  #activeService{
+    color: #f8e807;
+  }
   
   .nav {
     height: 100%;
@@ -159,12 +162,14 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
       align-items: center;
   }
   
-  .companyLogoDiv{
+  .brokersLogoDiv{
     display: flex;
     gap: 20px;
     align-items: center;
   }
   
+
+
   .companyLogo{
     width: 70px;
     height: 70px;
@@ -180,7 +185,7 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
     font-size: clamp(15px,2vw,20px);
   }
 
-  .visit{ 
+  .text{ 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -303,6 +308,144 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   }
 
 
+
+  
+.hiddenContent{
+  display: none;
+  margin-top: 15px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serviceLogoDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.companyLogo{
+  width: 50px;
+  height: 50px;
+}
+
+.companyLogo img{
+  width: 100%;
+  height: 100%;
+}
+
+.visit{
+  height: 35px;
+  padding: 0px 14px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(75, 75, 227);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px,2vw,14px);
+}
+
+/* .visit:hover {
+  transition: 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.visit:active{
+  background-color:  rgba(153, 153, 249, 0.591);
+} */
+
+.companyName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.name{
+  font-size: clamp(15px,2vw,25px);
+}
+
+.servicepaymentMethodsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicepaymentMethods{
+  text-align: center;
+  font-size: clamp(12px,2vw,14px);
+}
+
+.servicepaymentList{
+  font-size: clamp(11px,2vw,12px);
+  text-align: center;
+}
+
+.aboutBigText{
+  font-size: clamp(12px,2vw,14px);
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+.aboutSmallText{
+  font-weight: 340;
+  font-size: clamp(10px,2vw,15px);
+}
+
+.headLine{
+  width: 100%;
+  font-size: clamp(12px,2vw,14px);
+  font-weight: 550;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.availableBrokerWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.innerDiv{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.availableBroker{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.brokerimage{
+ width: 70px;
+ height: 70px;
+}
+
+.brokerimage img{
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.brokerText{
+  font-size: clamp(10px ,2vw, 12px);
+  font-weight: 400;
+}
+
 @media(max-width: 768px){
   .rightDiv{
     display: none;
@@ -313,6 +456,33 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   .wrapper{
     width: 90%;
   }
+  .innerDiv{
+    width: 90%;
+  }
+
+  .brokerimage{
+    width: 50px;
+    height: 50px;
+  }
+  .wrapper{
+    width: 90%;
+  }
+  .rightDiv{
+    display: none;
+  }
+  .leftDiv{
+    width: 100%;
+  }
 }
+
+
+
+@media(max-width:500px){
+  input{
+    width: 100px;
+  }
+}
+
+
 
  
