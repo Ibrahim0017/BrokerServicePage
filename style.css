@@ -157,6 +157,7 @@
   .letters{
     font-size: clamp(13px,2vw,17px);
     font-weight: 400;
+    cursor: pointer;
   }
 
   .cardHolder {
