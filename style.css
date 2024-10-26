@@ -1,361 +1,360 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(247, 247, 247, 0.196);
-  }
-  
-  .wrapper {
-    height: 100vh;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
-    -webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
-    -moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
-  }
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 
-  .bannerDiv{
-    width: 100%;
-    display: flex;
-  }
-  
-  .leftDiv{
-    width: 40%;
-    height: 100px;
-  }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(247, 247, 247, 0.196);
+}
 
-  .leftDiv img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.wrapper {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+}
 
-  .rightDiv{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.bannerDiv {
+  width: 100%;
+  display: flex;
+}
 
-  .banner{
-    width: 80%;
-    height: 80%;
-    background-color: rgb(225, 241, 246);
-  }
+.leftDiv {
+  width: 40%;
+  height: 100px;
+}
 
-  .banner img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.leftDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
-  .header {
-    padding: 10px 0px;
-    width: 100%;
-    background-color: #041d79f0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .headerWrapper {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 4px 2px rgba(152, 152, 152, 0.03);
-    padding: 10px 0px;
-  }
+.rightDiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .navHolder {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .navHolder a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #activeBroker{
-    color: #f8e807;
-  }
+.banner {
+  width: 80%;
+  height: 80%;
+  background-color: rgb(225, 241, 246);
+}
 
-  #activeService{
-    color: #f8e807;
-  }
-  
-  .nav {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: clamp(12px, 2vw, 17px);
-    cursor: pointer;
-    gap: 5px;
-  }
-  .searchHolder {
-    display: flex;
-    align-items: center;
-    /* padding: 10px; */
-  }
-  
-  .searchIcon {
-    width: 20px;
-    height: 100%;
-    padding: 0px 10px;
-    background-color: white;
-    border-radius: 5px 0px 0px 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(120, 119, 119);
-    font-size: clamp(12px, 2vw, 14px);
-  }
-  
-  .searchHolder img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  input {
-    border:none;
-    padding: 10px 5px;
-    border-radius: 0px 5px 5px 0px;
-    font-size: clamp(12px, 2vw, 17px);
-    outline: none;
-  }
-  
-  .bodyWrapper {
-    width: 95%;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .nameRankDiv{
-    display: flex;
-    gap: 7px;
-    font-size: clamp(15px,2vw,17px);
-    font-weight: 550;
-  }
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
-  .rank{
-    display: flex;
-    gap: 6px;
-  }
-  .letters{
-    font-size: clamp(15px,2vw,17px);
-    font-weight: 400;
-    cursor: pointer;
-  }
+.header {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #041d79f0;
+  display: flex;
+  justify-content: center;
+}
 
-  .cardHolder {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    border-radius: 15px;
-    background: white;
-cursor: pointer;
-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
--webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
--moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
-  }
-  
-  .company {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  .brokersLogoDiv{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-  
+.headerWrapper {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px rgba(152, 152, 152, 0.03);
+  padding: 10px 0px;
+}
 
+.navHolder {
+  display: flex;
+  gap: 30px;
+}
 
-  .companyLogo{
-    width: 70px;
-    height: 70px;
-  }
-  
-  .companyLogo img{
-    width: 100%;
-    height: 100%;
-  }
-  
-  .companyName{
-    font-weight: 600;
-    font-size: clamp(15px,2vw,20px);
-  }
+.navHolder a {
+  color: white;
+  text-decoration: none;
+}
 
-  .text{ 
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: clamp(10px,2vw,14px);
-    font-weight: 400;
-    padding: 10px ;
-  }
-  
-  /* .visit:hover {
+#activeBroker {
+  color: #f8e807;
+}
+
+#activeService {
+  color: #f8e807;
+}
+
+#activeRebate{
+  color: #f8e807;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(12px, 2vw, 17px);
+  cursor: pointer;
+  gap: 5px;
+}
+.searchHolder {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.searchIcon {
+  width: 20px;
+  height: 100%;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(120, 119, 119);
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.searchHolder img {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  border: none;
+  padding: 10px 5px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: clamp(12px, 2vw, 17px);
+  outline: none;
+}
+
+.bodyWrapper {
+  width: 95%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameRankDiv {
+  display: flex;
+  gap: 7px;
+  font-size: clamp(15px, 2vw, 17px);
+  font-weight: 550;
+}
+
+.rank {
+  display: flex;
+  gap: 6px;
+}
+.letters {
+  font-size: clamp(15px, 2vw, 17px);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.cardHolder {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.3);
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brokersLogoDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.companyLogo {
+  width: 70px;
+  height: 70px;
+}
+
+.companyLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.companyName {
+  font-weight: 600;
+  font-size: clamp(15px, 2vw, 20px);
+}
+
+.text {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 2vw, 14px);
+  font-weight: 400;
+  padding: 10px;
+}
+
+/* .visit:hover {
     transition: 0.5s ease-in-out;
     border-radius: 20px;
   }
   .visit:active{
     background-color:  rgba(153, 153, 249, 0.591);
   } */
-  
-  .toggle{
-    display: flex;
-    align-self: center; 
-  }
 
-  .hiddenContent{
-    width: 100%;
-    display: none;
-    align-self: center;
-    margin-top: 20px;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
+.toggle {
+  display: flex;
+  align-self: center;
+}
 
-  .servicesCard{
-    width: 100%;
-    /* border: 1px solid rgb(166, 166, 164); */
-    display: flex;
-    justify-content: center;
-    border-radius: 12px;
-    background-color: whitesmoke;
-    box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
--webkit-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
--moz-box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.21);
-  }
+.hiddenContent {
+  width: 100%;
+  display: none;
+  align-self: center;
+  margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 
-  .serviceCardWrapper{
-    width: 90%;
-    padding: 10px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-  }
+.servicesCard {
+  width: 100%;
+  /* border: 1px solid rgb(166, 166, 164); */
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: whitesmoke;
+  box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: -1px 1px 15px -4px rgba(0, 0, 0, 0.21);
+}
 
-  /* .serviceLogoDiv{
+.serviceCardWrapper {
+  width: 90%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* .serviceLogoDiv{
     
   } */
 
-  .ServiceLogo{
-    width: 50px;
-    height: 50px;
-  }
+.ServiceLogo {
+  width: 50px;
+  height: 50px;
+}
 
-  .ServiceLogo img {
-    width: 100%;
-    height: 100%;
-  }
+.ServiceLogo img {
+  width: 100%;
+  height: 100%;
+}
 
-  .ratepaymentdiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+.ratepaymentdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
-  .cashBackDiv{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-  }
+.cashBackDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .paymentMethodsDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .paymentMethods{
-    font-size: clamp(13px,2vw,20px);
-  }
-  
-  .paymentList{
-    font-size: clamp(11px,2vw,20px);
-    text-align: center;
-    color: rgb(45, 45, 45);
-  }
+.paymentMethodsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .cashback{
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    background-color:rgb(66, 66, 251);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    padding:  0px 10px;
-    font-size: clamp(2px,2vw,16px);
-  }
+.paymentMethods {
+  font-size: clamp(13px, 2vw, 20px);
+}
 
-  .serviceDetail{
-    font-size: clamp(6px,2vw,16px);
-    margin-top: 10px;
-  }
+.paymentList {
+  font-size: clamp(11px, 2vw, 20px);
+  text-align: center;
+  color: rgb(45, 45, 45);
+}
 
+.cashback {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(66, 66, 251);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 0px 10px;
+  font-size: clamp(2px, 2vw, 16px);
+}
 
+.serviceDetail {
+  font-size: clamp(6px, 2vw, 16px);
+  margin-top: 10px;
+}
 
-  
-.hiddenContent{
+.hiddenContent {
   display: none;
   margin-top: 15px;
 }
 
 .company {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.serviceLogoDiv{
+.serviceLogoDiv {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
 }
 
-.companyLogo{
+.companyLogo {
   width: 50px;
   height: 50px;
 }
 
-.companyLogo img{
+.companyLogo img {
   width: 100%;
   height: 100%;
 }
 
-.visit{
+.visit {
   height: 35px;
   padding: 0px 14px;
   border: none;
@@ -366,7 +365,7 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(10px,2vw,14px);
+  font-size: clamp(10px, 2vw, 14px);
 }
 
 /* .visit:hover {
@@ -377,62 +376,62 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   background-color:  rgba(153, 153, 249, 0.591);
 } */
 
-.companyName{
+.companyName {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 13px;
 }
 
-.name{
-  font-size: clamp(15px,2vw,25px);
+.name {
+  font-size: clamp(15px, 2vw, 25px);
 }
 
-.servicepaymentMethodsDiv{
+.servicepaymentMethodsDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.servicepaymentMethods{
+.servicepaymentMethods {
   text-align: center;
-  font-size: clamp(12px,2vw,14px);
+  font-size: clamp(12px, 2vw, 14px);
 }
 
-.servicepaymentList{
-  font-size: clamp(11px,2vw,12px);
+.servicepaymentList {
+  font-size: clamp(11px, 2vw, 12px);
   text-align: center;
 }
 
-.aboutBigText{
-  font-size: clamp(12px,2vw,14px);
+.aboutBigText {
+  font-size: clamp(12px, 2vw, 14px);
   font-weight: 550;
   margin-top: 10px;
 }
 
-.aboutSmallText{
+.aboutSmallText {
   font-weight: 340;
-  font-size: clamp(11px,2vw,15px);
+  font-size: clamp(11px, 2vw, 15px);
   margin-top: 7px;
 }
 
-.headLine{
+.headLine {
   width: 100%;
-  font-size: clamp(12px,2vw,14px);
+  font-size: clamp(12px, 2vw, 14px);
   font-weight: 550;
   margin-top: 15px;
   display: flex;
   justify-content: center;
 }
 
-.availableBrokerWrapper{
+.availableBrokerWrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.innerDiv{
+.innerDiv {
   width: 55%;
   height: 100%;
   display: flex;
@@ -441,66 +440,180 @@ box-shadow: -1px 1px 15px -4px rgba(0,0,0,0.3);
   gap: 5px;
 }
 
-.availableBroker{
+.availableBroker {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
 }
 
-.brokerimage{
- width: 70px;
- height: 70px;
+.brokerimage {
+  width: 70px;
+  height: 70px;
 }
 
-.brokerimage img{
+.brokerimage img {
   border-radius: 4px;
   width: 100%;
   height: 100%;
 }
 
-.brokerText{
-  font-size: clamp(10px ,2vw, 12px);
+.brokerText {
+  font-size: clamp(10px, 2vw, 12px);
   font-weight: 400;
 }
 
-@media(max-width: 768px){
-  .rightDiv{
-    display: none;
+.rebateCardWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.rebateCardHolder {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.rebateName {
+  font-size: 22px;
+}
+
+.rebateCard {
+  width: 91%;
+  height: 100%;
+  background-color: rgb(235, 235, 248);
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutHolder{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  gap: 13px;
+}
+
+.imageHolder{
+  width: 100%;
+  height: 100%;
+}
+
+.imageHolder img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.applyHolder{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.applyRabateText{
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.applyExistDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exist{
+  padding: 8px;
+  width: 150px;
+  background-color: rgb(81, 81, 249);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.apply{
+  padding: 8px;
+  width: 150px;
+  background-color: rgb(77, 201, 70);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.rebatePayment{
+  font-size: clamp(13px,2vw,14px);
+}
+
+span{
+  font-size: clamp(13px,2vw,14px);
+  margin-left: 20px;
+}
+
+
+@media (max-width: 1208px) {
+  .rebateCardHolder {
+    width: 400px;
   }
-  .leftDiv{
+}
+
+@media (max-width: 1067px) {
+  .rebateCardHolder {
+    width: 350px;
+  }
+}
+@media (max-width: 940px) {
+  .rebateCardHolder {
+    width: 285px;
+  }
+}
+@media (max-width: 681px) {
+  .rebateCardHolder {
     width: 100%;
   }
-  .wrapper{
+}
+
+@media (max-width: 768px) {
+  .rightDiv {
+    display: none;
+  }
+  .leftDiv {
+    width: 100%;
+  }
+  .wrapper {
     width: 90%;
   }
-  .innerDiv{
+  .innerDiv {
     width: 90%;
   }
 
-  .brokerimage{
+  .brokerimage {
     width: 50px;
     height: 50px;
   }
-  .rightDiv{
+  .rightDiv {
     display: none;
   }
-  .leftDiv{
+  .leftDiv {
     width: 100%;
   }
 }
 
-
-
-@media(max-width:500px){
-  input{
+@media (max-width: 500px) {
+  input {
     width: 100px;
   }
-  .wrapper{
+  .wrapper {
     width: 100%;
   }
 }
-
-
-
- 
